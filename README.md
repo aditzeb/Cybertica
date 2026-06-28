@@ -9,6 +9,10 @@ Cybertica is an interactive mobile/web application designed to cultivate the rea
 
 ---
 
+![CaptureCybertica3](https://user-images.githubusercontent.com/53120949/228886945-239637ef-7d63-436c-80cc-e48ddcef1baf.PNG)
+![CaptureCybertica2](https://user-images.githubusercontent.com/53120949/228886969-8aa0a4c5-b514-4043-91b0-bdb781163733.PNG)
+
+
 ## 🌟 About Cybertica
 
 Many graduates find themselves lacking the exact competencies and qualifications required by modern tech companies, leading to companies recruiting foreign workers. At the same time, the lack of a structured local digital talent network hinders brilliant innovations from coming to life.
