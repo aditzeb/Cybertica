@@ -1,38 +1,89 @@
-# Cybertica
+# Cybertica: The Local Talent Arena
 
-The Local Talent Arena.
+[![Flutter Version](https://img.shields.io/badge/Flutter-3.38.5+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart Version](https://img.shields.io/badge/Dart-3.10.4+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![Google Solution Challenge](https://img.shields.io/badge/Challenge-Google%20Solution%20Challenge%202023-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/community/solutions-challenge)
 
-## About Cybertica
+Cybertica is an interactive mobile/web application designed to cultivate the readiness of the younger generation to become experts in technology. Developed originally for the **Google Solution Challenge 2023** (by GDSC UNKLAB), Cybertica provides a "Local Talent Arena" where young digital innovators can build competent portfolios, collaborate with peers, and showcase their talents.
 
-The readiness of the younger generation to become experts in the field of technology often occurs with problems, where the talent development process is felt to be insufficient when they are just starting to explore it when they have graduated from college so that many graduates are less competent and qualified. Making more companies decide to recruit foreign workers. the lack of digital talent among young people also hinders the development of brilliant young people's innovations. Because great innovation needs to be realized with great teams and talents so that their ideas will not die before they develop.
+---
 
-Google Solution Challenge 2023
-#GDSCUNKLAB #GoogleDeveloper #GDSC #GoogleDSC #googledeveloperstudentclubs
+## 🌟 About Cybertica
 
-![CaptureCybertica3](https://user-images.githubusercontent.com/53120949/228886945-239637ef-7d63-436c-80cc-e48ddcef1baf.PNG)
-![CaptureCybertica2](https://user-images.githubusercontent.com/53120949/228886969-8aa0a4c5-b514-4043-91b0-bdb781163733.PNG)
+Many graduates find themselves lacking the exact competencies and qualifications required by modern tech companies, leading to companies recruiting foreign workers. At the same time, the lack of a structured local digital talent network hinders brilliant innovations from coming to life.
 
+**Cybertica** addresses this gap by:
+- **Accelerating Digital Talent**: Providing structured paths and challenges for early-stage tech students and enthusiasts.
+- **Enabling Collaboration**: Helping young innovators find teammates and build a community around their ideas.
+- **Bridging the Industry Gap**: Developing portfolios through active participation in regional competitions and talent-building programs.
 
-### IMPORTANT:
+---
 
-For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
+## 🚀 Key Features
 
-```
-flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
-```
+- **Home Page**: A curated, personalized dashboard displaying user progress, upcoming events, and achievements.
+- **Competition Arena**: A space where students and tech enthusiasts can participate in local hackathons, UI design challenges, and coding competitions.
+- **Rich UI Animations**: Smooth visual feedback and animations powered by `flutter_animate` to keep users engaged.
+- **Responsive Layout**: Native compatibility across mobile (iOS & Android) and web viewports.
+- **Internationalization**: Configured with internationalization support for multi-language accessibility.
 
-This command creates the generated files that parse each Record from Firestore into a schema object.
+---
 
-### Getting started continued:
+## 🛠️ Technical Stack & Architecture
 
-This project is a starting point for a Flutter application.
+This application is built on top of **Flutter** and **Dart**:
 
-A few resources to get you started if this is your first Flutter project:
+- **Routing & Navigation**: [GoRouter](https://pub.dev/packages/go_router) for declarative, URL-based routing.
+- **State Management**: [Provider](https://pub.dev/packages/provider) for clean, reactive state updates.
+- **Local Persistence**: [Sqflite](https://pub.dev/packages/sqflite) for structured local storage and offline capabilities, and [Shared Preferences](https://pub.dev/packages/shared_preferences) for local key-value preferences.
+- **Typography & Assets**: [Google Fonts](https://pub.dev/packages/google_fonts) (Poppins, Roboto) and [Font Awesome](https://pub.dev/packages/font_awesome_flutter) icons.
+- **Animations**: [Flutter Animate](https://pub.dev/packages/flutter_animate) for micro-interactions and transitions.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+---
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 💻 Getting Started
+
+### Prerequisites
+
+Make sure you have Flutter installed on your machine.
+- Flutter SDK: `^3.38.5` (or any compatible Dart SDK `^3.10.4`)
+- Target platforms: Android, iOS, Web
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/aditzeb/cybertica-front-end.git
+   cd cybertica-front-end
+   ```
+
+2. **Retrieve dependencies**:
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the application**:
+   - For mobile/desktop/web:
+     ```bash
+     flutter run
+     ```
+   - To build for web output:
+     ```bash
+     flutter build web
+     ```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions to Cybertica! Please read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to:
+- Report bugs or request enhancements.
+- Propose code changes.
+- Adhere to code styles and formatting rules.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

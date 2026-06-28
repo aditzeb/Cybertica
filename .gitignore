@@ -23,6 +23,7 @@
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -48,3 +49,21 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local / Sensitive configuration files
+.env
+.env.*
+local.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+*.token
+
+# Xcode user specific state
+*.xcuserstate
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+

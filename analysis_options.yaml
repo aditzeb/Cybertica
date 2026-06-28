@@ -1,0 +1,39 @@
+# This file configures the static analysis as used by the Flutter tool.
+#
+# The code, or parts of the code, can be excluded from analysis by
+# adding them to the `exclude` list.
+#
+# For more information see https://dart.dev/guides/language/analysis-options
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    # If there are generated files or build directories, exclude them:
+    - "build/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  
+  errors:
+    # Ignore warnings from FlutterFlow boilerplate and older dependencies
+    unused_import: ignore
+    deprecated_member_use: ignore
+    invalid_use_of_visible_for_testing_member: ignore
+    sdk_version_since: ignore
+    annotate_overrides: ignore
+    use_key_in_widget_constructors: ignore
+    prefer_const_constructors: ignore
+    prefer_const_constructors_in_immutables: ignore
+    prefer_const_literals_to_create_immutables: ignore
+    must_be_immutable: ignore
+    avoid_unnecessary_containers: ignore
+    sized_box_for_whitespace: ignore
+    prefer_interpolation_to_compose_strings: ignore
+    prefer_final_fields: ignore
+    unnecessary_import: ignore
+    library_private_types_in_public_api: ignore
+    avoid_print: ignore
+    avoid_function_literals_in_foreach_calls: ignore
+    depend_on_referenced_packages: ignore
+    constant_identifier_names: ignore
+    prefer_iterable_wheretype: ignore
